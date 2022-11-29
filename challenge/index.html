@@ -6,11 +6,15 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Horiseon</title>
 </head>
-
+<!-- Changes: 
+        divs into their relative semantic html tags to enable better SEO and accessibility
+-->
 <body>
-    <div class="header">
+<!--Header and Navigation elements-->
+    <!-- changed div to header for semantic html. Need to adjust in CSS and remove header class-->
+    <header class="header">
         <h1>Hori<span class="seo">seo</span>n</h1>
-<!-- Wouldn't this be a nav element? Why is it div and why does it break when it's a nav?-->
+    <!-- Wouldn't this be a nav element? Why is it div and why does it break when it's a nav?-->
         <div>
             <ul>
                 <li>
@@ -23,10 +27,11 @@
                     <a href="#social-media-marketing">Social Media Marketing!</a>
                 </li>
             </ul>
-        </div>
+        </header>
     </div>
-    <!-- What is this hero class for?-->
+<!-- What is this hero class and div for?-->
     <div class="hero"></div>
+ <!-- Changed Div into section -- adjust divs under it too -- CSS can stay the same as keeping classes -->   
     <div class="content">
         <div class="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="Notebook with SEO mindmap"/>
@@ -56,6 +61,8 @@
             </p>
         </div>
     </div>
+<!-- Benefits of joining Horiseon-->
+<!-- Changed div to section -- adjust divs under it too -- CSS can stay the same as keep classes-->
     <div class="benefits">
         <div class="benefit-lead">
             <h3>Lead Generation</h3>
@@ -82,7 +89,10 @@
             </p>
         </div>
     </div>
+<!-- Footer-->
+<!-- changed div to footer-->
     <div class="footer">
+    <!-- What do I do with this tag? Isn't h2 wrong? What would be the correct CSS change? -->
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
